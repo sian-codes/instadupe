@@ -6,15 +6,18 @@
 }
 
 .header-logo {
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: 20px;
 }
 
 .menu-icon {
-    margin-bottom: 5px;
+    margin-bottom: 15px;
 }
 
 .header-icons img {
+    margin-top: 15px;
     right: 0;
+    margin-right: 20px;
 }
+
 

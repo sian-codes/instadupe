@@ -5,7 +5,7 @@
     margin-top: 20px;
     width: 470px;
     height: 825px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
     transition: 0.3s;
     border-radius: 10px;
 }
@@ -24,24 +24,85 @@ img .card {
 }
 
 .display-pic {
-    margin-top: 15px;
+    margin: 10px 10px 15px 10px;
 }
 
 h4 {
     margin-left: 5px;
 }
 
-h3 {
-    margin-top: 30px;
+h5 {
+    font-size: 14px;
+    width: 200px;
 }
 
 .three-dot {
-    margin-left: 275px;
+    margin-left: 250px;
     margin-top: 20px;
+}
+
+.actions-post-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-actions {
+    width: 200px;
+}
+
+.post-actions img {
+    left: 0;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.save-post img {
+    right: 0;
+    margin-right: 10px;
+    margin-top: 10px;
 }
 
 .card-container {
     display: inline;
     justify-content: space-evenly;
     flex-direction: row;
+}
+
+.post-likes {
+    margin-left: 15px;
+    margin-top: -15px;
+}
+
+.post-title {
+    width: 330px;
+    display: flex;
+    margin-top: -25px;
+    margin-left: 15px;
+    justify-content: space-between;
+}
+
+.post-bottom {
+    color: grey;
+    margin-top: -20px;
+    margin-left: 15px;
+}
+
+hr.new {
+    border: 1px solid #F2F2F2;
+}
+
+.time {
+    font-size: 10px;
+}
+
+.smile-comment-btn {
+    display: flex;
+}
+
+.smile-comment-btn img {
+    width: 35px;
+    height: 35px;
+    margin-top: 5px;
+    margin-left: 11px;
+    margin-bottom: 15px;
 }
