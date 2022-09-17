@@ -1,0 +1,9 @@
+input {
+    width: 15rem;
+    background: #F2F2F2;
+    background: url("src/assets/icons/search-icon.png") no-repeat scroll 7px 7px;
+    border: none;
+    padding: 0.5rem;
+    margin-top: 10px;
+    border-radius: 10px;
+}

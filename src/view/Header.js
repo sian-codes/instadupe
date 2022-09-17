@@ -8,6 +8,7 @@ import story from '../assets/icons/storyIcon.png';
 import compass from '../assets/icons/compassIcon.png';
 import likes from '../assets/icons/likesIcon.png';
 import displayPic from '../assets/icons/displayPic.png';
+import SearchBar from "../view/Search";
 
 const HeaderView = () => (
     <div className="header">
@@ -20,6 +21,9 @@ const HeaderView = () => (
                 src={menu}
                 alt="menu"
             />
+        </div>
+        <div className="search-bar">
+            <SearchBar />
         </div>
             <div className="header-icons">
                 <img
