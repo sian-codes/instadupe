@@ -1,13 +1,13 @@
 import "./Post.css";
-import display from "../assets/icons/avatar2.png";
+import display from "../assets/avatar2.png";
 import image from "../assets/image1.jpeg";
 import likes from "../assets/icons/likesIcon.png";
-import comment from "../assets/icons/comment.png";
-import message from "../assets/icons/messages.png";
-import savePost from "../assets/icons/save-post.png";
+import comment from "../assets/icons/commentIcon.png";
+import message from "../assets/icons/messagesIcon.png";
+import savePost from "../assets/icons/savePostIcon.png";
 import smile from "../assets/icons/smileIcon.png";
-import Username from "../view/Username";
-import Comment from "../view/Comment.js";
+import Username from "../components/Username";
+import Comment from "../components/Comment.js";
 
 const Post = () => {
     return     <div className="card-container">

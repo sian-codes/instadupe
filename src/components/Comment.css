@@ -11,6 +11,7 @@ textarea {
 }
 
 button {
+    margin-bottom: 20px;
     border: 1px solid white;
     background-color: white;
     color: deepskyblue;

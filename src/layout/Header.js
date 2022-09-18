@@ -1,14 +1,14 @@
 import React from 'react';
 import './Header.css';
 import instaLogo from '../assets/instaLogo.png';
-import menu from '../assets/icons/menu.png';
+import menu from '../assets/icons/menuIcon.png';
 import home from '../assets/icons/homeIcon.png';
-import message from '../assets/icons/messages.png';
+import message from '../assets/icons/messagesIcon.png';
 import story from '../assets/icons/storyIcon.png';
 import compass from '../assets/icons/compassIcon.png';
 import likes from '../assets/icons/likesIcon.png';
-import displayPic from '../assets/icons/displayPic.png';
-import SearchBar from "../view/Search";
+import displayPic from '../assets/displayPic.png';
+import SearchBar from "../components/Search";
 
 const HeaderView = () => (
     <div className="header">

@@ -1,5 +1,5 @@
 import './App.css';
-import HeaderView from "./view/Header";
+import HeaderView from "./layout/Header";
 import StoryContainer from "./view/StoryContainer";
 import Post from "./view/Post"
 
