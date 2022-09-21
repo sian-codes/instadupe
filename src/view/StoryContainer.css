@@ -1,12 +1,12 @@
 .story-container {
-    margin: 10px auto auto;
+    margin: 30px auto auto;
     width: 470px;
     height: 119px;
     background-color: white;
     border-radius: 10px;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+    border-style: groove;
     display: flex;
     overflow-x: auto;
     overflow-y: hidden;
@@ -14,7 +14,7 @@
 
 .story-container img {
     margin-left: 15px;
-    margin-top: 15px;
+    margin-top: 5px;
     width: 64px;
     height: 84px;
 }

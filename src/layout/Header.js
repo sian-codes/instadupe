@@ -8,7 +8,7 @@ import story from '../assets/icons/storyIcon.png';
 import compass from '../assets/icons/compassIcon.png';
 import likes from '../assets/icons/likesIcon.png';
 import displayPic from '../assets/displayPic.png';
-import SearchBar from "../components/Search";
+import SearchBar from "../view/Search";
 
 const HeaderView = () => (
     <div className="header">
